@@ -85,3 +85,11 @@ class LabelledCharacter:
     
     def getChar(self) -> str:
         return self.character
+    
+class FromPredictions:
+    
+    def __init__(self) -> None:
+        pass
+
+    def getCharFromLabel(labelIndx):
+        return DataOrganizer.label_lst[labelIndx]
